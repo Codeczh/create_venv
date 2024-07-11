@@ -38,17 +38,9 @@
     ```
 
 3. **替换安装镜像源命令：** 
-    阿里云：
-    ``` 
-    conda: https://mirrors.aliyun.com/anaconda/pkgs/main 
-    pip: https://mirrors.aliyun.com/pypi/simple
-    ```
-    豆瓣：
-    ```bash
-    pip: https://pypi.douban.com/simple
-    ```
-    中国科技大学：
-    ```bash
-    conda: https://mirrors.ustc.edu.cn/anaconda/pkgs/main
-    pip: https://pypi.mirrors.ustc.edu.cn/simple
-    ```
+    阿里云conda： `conda install -c  https://mirrors.aliyun.com/anaconda/pkgs/main  `
+    中科大 conda：`conda install -c  https://mirrors.ustc.edu.cn/anaconda/pkgs/main  `
+    中科大 pip：`pip install -i  https://pypi.mirrors.ustc.edu.cn/simple  `
+    阿里云 pip：            `pip install -i  https://mirrors.aliyun.com/pypi/simple  `
+    豆 瓣   pip：           `pip install -i  https://pypi.douban.com/simple  `
+
